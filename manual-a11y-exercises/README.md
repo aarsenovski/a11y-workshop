@@ -17,4 +17,4 @@ Required tools:
    - Name: WAVE Evaluation Tool
    - https://chrome.google.com/webstore/detail/wave-evaluation-tool/jbbplnpkjmmeebjpijfedlgcdilocofh
 
-Target: Ensure no serious/critical errors are found by the two accessibility tools. Accessibility remark around 'No Page region' can be safely skipped in this exercises as it's out of scope.
+Target: Ensure no serious/critical errors are found by the two accessibility tools. Use correct html tags to remove all present accessibility remarks in the three examples. Accessibility remark around 'No Page region' can be safely skipped in this exercises as it's out of scope.

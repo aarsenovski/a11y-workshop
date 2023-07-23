@@ -1,10 +1,9 @@
 This React app contains of a simple Card component, for which we would like to add some automated accessibility tests using jest-axe. In order to do that you would need to:
 
 1. Install jest-axe - a custom Jest matcher for axe for testing accessibility
-2. Install React-Testing Library - a very lightweight solution for testing React components.
-3. Install jest-dom - a companion library for Testing Library that provides custom DOM element matchers for Jest
-
-
+2. Install jest-dom - a companion library for Testing Library that provides custom DOM element matchers for Jest
+3. In the 'components' folder create a Card.test.tsx file and write a test that checks if the Card component has any accessibility issues.
+4. Run the test to ensure no accessibility issues are missing
 
 ///////////////
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
