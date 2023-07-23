@@ -1,96 +1,69 @@
-<html>
-  <head>
-    <title>Universities</title>
-  </head>
-  <h1>Headings</h1>
+<html lang="en">
+   <head>
+      <title>Universities</title>
+   </head>
 
-  <h2>Exercise</h2>
-
-  <p>Can you identify and mark up the headings and lists in this content?</p>
-
-  <section class="alert-warning">
-    <center>
-      <b
-        >University of Melbourne 2015<br />
-        Uni<>Capitol Washington Internship Program<br />
-        US Congress, Washington DC, USA</b
-      >
-      <br />
-      <p>
-        <img
-          src="http://www.unimelb.edu.au/__data/assets/image/0019/2006281/capitol.jpg"
-        />
-      </p>
-    </center>
-
-    <p><strong>Application Form</strong></p>
-
-    <p>
-      <strong>DUE DATE: Wednesday 23 May 2012</strong><br />
-      <strong>IMPORTANT: </strong
-      ><strong
-        >Applications MUST arrive by the due date. There is NO extension of
-        time.</strong
-      ><br />
-    </p>
-
-    <p>The goals of the Internship Program are to:</p>
-    <p>
-      - enable students to develop high quality work place knowledge, skills and
-      experience
-    </p>
-    <p>
-      - enable students to develop high quality work place knowledge, skills and
-      experience
-    </p>
-    <h1>
-      <li>- build students’ confidence in their own abilities</li>
-    </h1>
-
-    <p>- assist students to clarify their career goals and expectations</p>
-    <p>- enhance the quality of the university experience for students</p>
-
-    <p><strong>Additional Goals</strong></p>
-    <p>
-      - enable students to develop contacts to assist their entry into
-      employment
-    </p>
-    <p>
-      - allow students to gain overseas referees who can comment on their work
-      skills
-    </p>
-    <p>- give an advantage to students in gaining employment</p>
-    <p>
-      - give Congressional participants access to students with an international
-      perspective on American politics and law
-    </p>
-    <p>
-      - establish links between Congressional participants and the University of
-      Melbourne
-    </p>
-    <p>
-      - provide Australia with a pool of graduates with a high level of insight
-      into American politics, law and government.
-    </p>
-  </section>
-
-  <h2>Tips</h2>
-  <ul>
-    <li>
-      By scanning headings alone, users shoud get a good idea of the page
-      content
-    </li>
-    <li>
-      Assign the the h1 tag to the main headline of the page - DO NOT apply H1
-      tags to your logo, site name or any other site-wide element
-    </li>
-    <li>Heading levels can't be skipped, i.e. you cant jump from h1 to h3</li>
-  </ul>
-
-  <h2>WCAG Success Criteria 1.3.1: Info and Relationships</h2>
-
-  <p>
-    Semantic markup is used to designate headings (h1 - h6), lists (u, ol and
-    dl), and emphasized or special text (string, code, abbrev).
-  </p>
+   <h1>Forms and labels</h1>
+   <h2>Exercise</h2>
+   <p>Can you identify which input fields are missing valid labels?</p>
+   <h2>Example</h2>
+   <section class="alert-warning">
+      <h1>Application form</h1>
+      <form action="" method="post" name="form1" id="form1">
+         <p>1. Personal Details</p>
+         <p>Name:
+            <input type="text" aria-label="Name" id="textfield">
+         </p>
+         <p>Student Number:
+            <input type="text" aria-label="StudentNr" id="textfield3">
+         </p>
+         <p>Date of Birth:
+            <input type="text" aria-label="DateOfBirth"  id="textfield2">
+         </p>
+         <p>
+            <label for="textfield4">
+               Family Name:
+               <input type="text" aria-label="FamilyName" id="textfield4">
+         </p>
+         <p>Given Names:
+         <input type="text"  aria-label="GiveNames" id="textfield5"></p>
+         <p> Home Address:
+          <input type="text" aria-label="HomeAddress" id="textfield7"></p>
+         <input aria-label="Input"  type="text"></p>
+         <p>
+            Post code:
+            <select aria-label="PostCode" id="postcode">
+               <option aria-label="0" value="0">Select</option>
+               <option aria-label="3000" value="3000">3000</option>
+               <option aria-label="3010" value="3010">3010</option>
+               <option aria-label="3183" value="3183">3183</option>
+            </select>
+         </p>
+         <fieldset>
+            <legend>2. Emergency Contact</legend>
+            <p>Name:
+               <input type="text" aria-label="Name" id="textfield13">
+            </p>
+            <p>Address:
+               <input type="text" aria-label="Address" id="textfield14">
+            </p>
+            <p>Post Code
+               <input type="text" aria-label="PostCode" id="textfield15">
+            </p>
+            <p>Telephone:
+               <input type="text" aria-label="Telephone" id="textfield16">
+            </p>
+         </fieldset>
+         <p>3. Citizenship</p>
+         <p><input aria-label="Australian" type="radio">Australian</p>
+         <p><input aria-label="New Zealand" type="radio">New Zealand</p>
+         <p><input aria-label="Submit" type="submit" value="Submit" id="button" name="button"></p>
+      </form>
+   </section>
+   <h2>Tips</h2>
+   <ul>
+      <li>Click the 'Check Accessibility' button to see if you have fixed all the problems.</li>
+   </ul>
+   <h2>WCAG Success Criteria 3.3.2: Labels or Instructions</h2>
+   <p>Labels or instructions are provided when content requires user input.</p>
 </html>
